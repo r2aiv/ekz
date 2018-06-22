@@ -1,6 +1,6 @@
 all:
-	g++ -o 01 01.cpp
-	#g++ -o 02 02.cpp
+	#g++ -o 01 01.cpp
+	g++ -o 02 02.cpp
 	#g++ -o 03 03.cpp
 
 clean:

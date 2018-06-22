@@ -96,6 +96,12 @@ public:
 
 	/*Начало вашего кода*/
 	//TODO: Пишите код тут
+	
+	bool operator < (product p1)
+	{
+		if(this->price < p1.price) return true;
+		else return false;
+	}
 
 	/*Конец вашего кода*/
 	/*Памятка! Если вы стёрли строки доступные для редактирования - нажмите F5*/
